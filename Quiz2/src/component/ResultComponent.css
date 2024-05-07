@@ -1,0 +1,52 @@
+.results_page {
+    background-color: #f5f5f5;
+    padding: 30px;
+    border-radius: 5px;
+    text-align: center;
+    width: 400px; 
+    margin: 0 auto; 
+  }
+  
+  .results_page h1 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: rgb(18, 80, 18);
+  }
+  
+  .results_page p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: blue;
+  }
+  
+  .results_page ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .results_page li {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+ 
+  .buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .results_page button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 20px; 
+    background-color: rgb(208, 196, 196); 
+  }
+
+  .results_page .buttons button {
+    width: 150px; 
+    margin: 0 10px; 
+  }

@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(85, 85, 244);
+    font-family: Arial, sans-serif;;
+  }
+  
+  .home_page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 50px;
+  }
+  
+  .home_page button {
+    background-color: #24a324;
+    color: #fff;
+    padding: 15px 30px;
+    width: 100px; 
+    height: 45px; 
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1.2rem;
+  }
+
+  .home_page p {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
